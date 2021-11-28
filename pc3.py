@@ -115,6 +115,13 @@ except:
 
 #8
 
+import random
+lista = []
+for i in range(1,21):
+	lista.append(random.randint(0,100))
+
+
+print(lista)
 
 
 
